@@ -1,6 +1,6 @@
 library(nnet)
-test<-read.csv('C:/Users/Nagabhushanam/Downloads/R/test.csv',header=F)
-train<-read.csv('C:/Users/Nagabhushanam/Downloads/R/train.csv',header=F)
+test<-read.csv('test.csv',header=F)
+train<-read.csv('train.csv',header=F)
 train1<-train[,2:785]
 test1<-test[,2:785]
 seq4<-function(x) seq(x,x+3,1)
